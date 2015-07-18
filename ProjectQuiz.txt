@@ -1,9 +1,9 @@
-*****************************************************
-Project Name:  Recipe Display Application
-Author: 
-Date:   
+************************************************************************
+Project Name:  Recipe Display Application  --  Project Quiz
+Author: Elizabeth Gorfine
+Date:   July 17, 2015
 Participation Assignment (25 points)
-*****************************************************
+************************************************************************
 
 Instructions:  
 Answer the following questions for Lesson 7 Assignment
@@ -13,7 +13,7 @@ Question #1:  (5 points)
 ++++++++++++
 Why should you ensure that the script element that links to the jQuery library file comes before any other script element for a .js file that includes jQuery code?
 
-
+You have to make sure the HTML content/elements are loaded before the jQuery can run.
 
 
 ++++++++++++
@@ -21,8 +21,7 @@ Question #2:  (5 points)
 ++++++++++++
 Why should you avoid including jQuery in a project if you don't need it?
 
-
-
+You should avoid using jQuery in a project if you do not need it because it has limited functionality and javascript files are still required with jQuery.
 
 
 
@@ -31,7 +30,7 @@ Question #3:  (5 points)
 ++++++++++++
 How does every jQuery statement start?
 
-
+With a dollar sign $
 
 
 
@@ -39,3 +38,14 @@ How does every jQuery statement start?
 Question #4: (10 points)
 ++++++++++++
 What is a Content Delivery Network (CDN)?  List and explain at least FOUR advantages in using a CDN.
+
+A CDN is a network that stores content on multiple servers that are placed in different regions. 
+When a client wants content from the provider, they obtain the content from the nearest server to their current location.
+
+Four advantages:
+1. Pages load faster because a jQuery file doesnt have to be downloaded
+2. Application runs well for every client because content is loaded from server that is closest to client rather than on one server for every single client.
+3. Servers are always available, so websites are always available for users to access.
+4. Scalability, new technology and advancements create larger demand but CDNs can handle it.
+
+
